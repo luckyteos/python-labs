@@ -143,12 +143,6 @@ def remove_test_files():
         shutil.rmtree(r"Test_Files\directory1")
     if os.path.exists(r"Test_Zip_File") and os.path.isdir(r"Test_Zip_File"):
         shutil.rmtree(r"Test_Zip_File")
-    if os.path.exists("__test_1.txt"):
-        os.remove("__test_1.txt")
-    if os.path.exists("lorem_ipsum__.jpg"):
-        os.remove("lorem_ipsum__.jpg")
-    if os.path.exists("test3.txt"):
-        os.remove("test3.txt")
 
 
 def tests():
